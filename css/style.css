@@ -1,0 +1,76 @@
+
+html {
+	padding: 0;
+	margin: 0;
+	background-color:#00e2e2;
+}
+html, body
+{
+  width: 100%;
+  margin: 0px;
+}
+/* fonts */
+@font-face {
+    font-family: 'dirty_ego';
+    src: url('../fonts/dirtyego1-webfont.eot');
+    src: url('../fonts/dirtyego1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dirtyego1-webfont.woff') format('woff'),
+         url('../fonts/dirtyego1-webfont.ttf') format('truetype'),
+         url('../fonts/dirtyego1-webfont.svg#dirty_egoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'ExoLight';
+	src: url('../fonts/Exo-Light-webfont.eot');
+	src: url('../fonts/Exo-Light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Exo-Light-webfont.woff') format('woff'),
+		 url('../fonts/Exo-Light-webfont.ttf') format('truetype'),
+		 url('../fonts/Exo-Light-webfont.svg#ExoLight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ExoBold';
+	src: url('../fonts/Exo-Bold-webfont.eot');
+	src: url('../fonts/Exo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Exo-Bold-webfont.woff') format('woff'),
+		 url('../fonts/Exo-Bold-webfont.ttf') format('truetype'),
+		 url('../fonts/Exo-Bold-webfont.svg#ExoBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* top */
+#top_bar{
+	width:100%;
+	background-color:transparent;
+	border-bottom: solid 6px black;
+}
+#top_bar #logo a{
+	color:white;
+	font-size:5.2em; 
+	font-family:dirty_ego;
+	text-decoration:none;
+}
+#top_bar #logo a:hover{
+	color:black;
+	transition-duration:0.3s;
+}
+#top_bar .links a{
+	padding:7px;
+	background-color:#ff4040;
+	color:white;
+	font-size:1.5em;
+	text-decoration:none;
+	font-family:Exolight;
+}
+#top_bar .links a:hover {
+	color: black;
+	transition-duration: 0.3s;
+}
+#top_bar #links_table{
+	width:100%;
+}
+#top_bar #links_table td{
+	text-align:center;
+}
